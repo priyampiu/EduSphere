@@ -1,0 +1,11 @@
+.welcome-section {
+    text-align: center;
+    margin: 40px auto;
+  }
+  .welcome-section h1 {
+    font-size: 40px;
+  }
+  .welcome-section span {
+    font-style: italic;
+    color: #6C2BD9;
+  }

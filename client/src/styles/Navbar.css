@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #6C2BD9;
+    padding: 15px 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .logo span {
+    font-style: italic;
+  }
+  .search input {
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 10px;
+  }
+  .search button {
+    background-color: white;
+    color: #6C2BD9;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .profile {
+    position: relative;
+    cursor: pointer;
+  }
+  .dropdown {
+    position: absolute;
+    right: 0;
+    background: white;
+    color: black;
+    top: 40px;
+    border-radius: 6px;
+    padding: 10px;
+  }

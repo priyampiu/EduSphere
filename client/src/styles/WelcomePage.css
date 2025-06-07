@@ -1,0 +1,64 @@
+/* HomePage.css */
+.homepage {
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .navbar {
+    background-color: #6C2BD9;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    margin: 0;
+    color: white;
+  }
+  
+  .italic {
+    font-style: italic;
+    font-weight: normal;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .welcome-section {
+    text-align: center;
+    /* padding: 25px 20px; */
+  }
+  
+  .welcome-image {
+    /* max-width: 600px; */
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  
+  .edusphere-text {
+    color: #6C2BD9;
+  }
+  
+  .description {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .register-button {
+    background-color: #6C2BD9;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+  }

@@ -1,0 +1,76 @@
+.footer {
+  background-color: #e2e1e1;
+  color: #6C2BD9;
+  padding: 20px;
+  /* text-align: center; */
+  font-size: 14px;
+  margin-top: 40px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 20px;
+   padding-left: 10px;
+   padding-right: 20px; */
+}
+.footer a {
+  color: #ffd;
+  text-decoration: none;
+}
+
+p {
+    color: #515151;
+}
+h2{
+    color: #464646;
+}
+
+.icons{
+    padding-right: 10px;
+    font-size: 20px;
+    color: #6C2BD9
+}
+.review-form {
+    /* margin-top: 15px; */
+    max-width: 400px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    text-align: center;
+  }
+  
+  .star-rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 5px;
+  }
+  
+  .star {
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+
+  .review-form textarea {
+    width: 100%;
+    height: 60px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 8px;
+    resize: none;
+    color: #6d6c6c;
+  }
+  
+  .review-form button {
+    background: #464646;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .review-form button:hover {
+    background: #815fa9;
+  }
